@@ -38,7 +38,7 @@
   #define DEFAULT_MACHINE_NAME "Ender 3 V2"
 #endif
 
-#define BOARD_NO_NATIVE_USB
+//#define BOARD_NO_NATIVE_USB
 
 //
 // EEPROM
