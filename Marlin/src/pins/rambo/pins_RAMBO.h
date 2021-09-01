@@ -139,7 +139,7 @@
 #define HEATER_BED_PIN                         3
 
 #ifndef FAN_PIN
-  #define FAN_PIN                              8
+  #define FAN_PIN                              45
 #endif
 #ifndef FAN1_PIN
   #define FAN1_PIN                             6
@@ -166,9 +166,9 @@
 //
 // M3/M4/M5 - Spindle/Laser Control
 //
-#define SPINDLE_LASER_PWM_PIN                 45  // Hardware PWM
-#define SPINDLE_LASER_ENA_PIN                 31  // Pullup!
-#define SPINDLE_DIR_PIN                       32
+#define SPINDLE_LASER_PWM_PIN                 8  // Hardware PWM
+#define SPINDLE_LASER_ENA_PIN                 31  // Pulldown!
+#define SPINDLE_DIR_PIN                       22
 
 //
 // SPI for MAX Thermocouple
@@ -180,7 +180,7 @@
 //
 // M7/M8/M9 - Coolant Control
 //
-#define COOLANT_MIST_PIN                      22
+#define COOLANT_MIST_PIN                      32
 #define COOLANT_FLOOD_PIN                     44
 
 //
