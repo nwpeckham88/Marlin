@@ -1,3 +1,13 @@
+Contains branches for each of my CNC machines. Currently lacking a config for MILLY.
+
+
+
+
+
+
+---------------------------------------- ORIGINAL MARLIN README ---------------------------------------
+
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
