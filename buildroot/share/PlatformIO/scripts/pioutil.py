@@ -1,8 +1,13 @@
 #
-# buildroot/share/PlatformIO/scripts/pioutil.py
+# pioutil.py
 #
 
-# Detect that 'vscode init' is running
-def is_vscode_init():
-	from SCons.Script import COMMAND_LINE_TARGETS
-	return "idedata" in COMMAND_LINE_TARGETS or "_idedata" in COMMAND_LINE_TARGETS
+# Make sure 'vscode init' is not the current command
+def is_pio_build():
+	from SCons.Script import DefaultEnvironment
+	env = DefaultEnvironment()
+	return not env.IsIntegrationDump()
+
+def get_pio_version():
+	from platformio import util
+	return util.pioversion_to_intstr()
