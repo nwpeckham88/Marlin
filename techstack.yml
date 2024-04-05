@@ -1,0 +1,155 @@
+repo_name: nwpeckham88/Marlin
+report_id: 869cf675ac3366e325c496caffeeae16
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-05T19:21:24+00:00'
+requested_by: nwpeckham88
+provider: github
+branch: 2.0.x
+detected_tools_count: 14
+tools:
+- name: Assembly Language
+  description: A low-level programming language
+  website_url: https://en.wikipedia.org/wiki/Assembly_language
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4934/default_71f18bbdc61fb88cefb66415bb55dc6f1e60e5ec.png
+  detection_source_url: https://github.com/nwpeckham88/Marlin
+  detection_source: Repo Metadata
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/nwpeckham88/Marlin
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/nwpeckham88/Marlin
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/nwpeckham88/Marlin
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/nwpeckham88/Marlin
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/nwpeckham88/Marlin
+  detection_source: Repo Metadata
+- name: CMake
+  description: An open-source system that manages the build process
+  website_url: http://www.cmake.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/nwpeckham88/Marlin
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/nwpeckham88/Marlin
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/nwpeckham88/Marlin
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/nwpeckham88/Marlin/blob/2.0.x/.github/workflows/bump-date.yml
+  detection_source: ".github/workflows/bump-date.yml"
+  last_updated_by: Scott Lahteine
+  last_updated_on: 2021-04-15 22:27:18.000000000 Z
+- name: iDoneThis
+  description: Easy daily check-ins and powerful progress reports to run more effective
+    and productive teams
+  website_url: https://idonethis.com/
+  open_source: false
+  hosted_saas: true
+  category: Collaboration
+  sub_category: Team Task Management
+  image_url: https://img.stackshare.io/service/338/default_f863a3d7f927a74d6ae21e8e152265bd07ca6cfe.png
+  detection_source_url: https://github.com/nwpeckham88/Marlin/blob/2.0.x/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Costas Basdekis
+  last_updated_on: 2020-11-18 02:04:28.000000000 Z
+- name: OpenScad
+  website_url: http://www.openscad.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10540/553fa030063d466cf1e3f84dace6840e_normal.png
+  detection_source_url: https://github.com/nwpeckham88/Marlin
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/nwpeckham88/Marlin
+  detection_source: Repo Metadata
+- name: gdb
+  description: GNU debugger tool
+  website_url: https://www.sourceware.org/gdb/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6225/no-img-open-source.png
+  detection_source_url: https://github.com/nwpeckham88/Marlin
+  detection_source: Repo Metadata
